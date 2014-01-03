@@ -1,0 +1,11 @@
+127.0.0.1       localhost
+192.168.33.100  nimbus	nimbus.analytics.nokia.com
+192.168.33.101  supervisor1	supervisor1.analytics.nokia.com
+192.168.33.102  supervisor2	supervisor2.analytics.nokia.com
+192.168.33.103  supervisor3	supervisor3.analytics.nokia.com
+192.168.33.104  supervisor4	supervisor4.analytics.nokia.com
+192.168.33.105  supervisor5	supervisor5.analytics.nokia.com
+192.168.33.201  zookeeper1	zookeeper1.analytics.nokia.com
+192.168.33.202  zookeeper2	zookeeper2.analytics.nokia.com
+192.168.33.203  zookeeper3	zookeeper3.analytics.nokia.com
+192.168.33.204  zookeeper4	zookeeper4.analytics.nokia.com
