@@ -3,9 +3,9 @@
 VAGRANTFILE_API_VERSION = "2"
 boxes = [
 	{ :name => :nimbus, :ip => '192.168.33.100' },
-#	{ :name => :supervisor1, :ip => '192.168.33.101' },
-#	{ :name => :supervisor2, :ip => '192.168.33.102' },
-#	{ :name => :zookeeper1, :ip => '192.168.33.201' }
+	{ :name => :supervisor1, :ip => '192.168.33.101' },
+	{ :name => :supervisor2, :ip => '192.168.33.102' },
+	{ :name => :zookeeper1, :ip => '192.168.33.201' }
 ]
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
