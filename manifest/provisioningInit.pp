@@ -6,6 +6,7 @@ package {puppet:ensure=> [latest,installed]}
 package {ruby:ensure=> [latest,installed]}
 package {rubygems:ensure=> [latest,installed]}
 package {unzip:ensure=> [latest,installed]}
+package {curl:ensure=> [latest,installed]}
 
 notify { 'Installing Hiera': }
 exec { "install_hiera":
