@@ -35,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 			end
      	 
 			# Ask puppet to do the provisioning now.
-			config.vm.provision :shell, :inline => "puppet apply /tmp/storm-puppet/manifests/site.pp --verbose --modulepath=/tmp/storm-puppet/modules/ --debug"  
+			config.vm.provision :shell, :inline => "puppet apply /tmp/herc-storm-puppet/manifests/site.pp --verbose --modulepath=/tmp/herc-storm-puppet/modules/ --debug"  
 		end
   	end
 end
