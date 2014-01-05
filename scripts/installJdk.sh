@@ -2,7 +2,7 @@
 JAVA_BIN=jdk-6u45-linux-i586.bin
 JAVA_VERSION=jdk1.6.0_45
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin
-echo "Installing JDK!"
+echo "Installing JDK"
 chmod 775 /vagrant_data/$JAVA_BIN
 TMP=`mktemp -d`
 cd $TMP
