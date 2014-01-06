@@ -10,6 +10,11 @@ boxes = [
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	boxes.each do |opts|
+
+		config.vm.provider :virtualbox do |vb|
+			vb.customize ["modifyvm", :id, "--memory", "2048"]
+		end
+
 		config.vm.define opts[:name] do |config|
 			config.vm.box = "precise32"
 			config.vm.box_url = "http://files.vagrantup.com/precise32.box"

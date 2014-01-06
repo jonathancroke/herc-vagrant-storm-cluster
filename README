@@ -1,0 +1,1 @@
+vagrant destroy -f nimbus supervisor1 supervisor2 zookeeper1
